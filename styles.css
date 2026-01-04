@@ -604,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .formula-example h4 {
     margin: 0 0 var(--spacing-sm) 0;
-    color:#e65100;
+    color: #00e66b;
     font-size: 1rem;
     font-weight: 600;
 }
