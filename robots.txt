@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gladiatorcodee.github.io/math-learning-website/sitemap.xml
