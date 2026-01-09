@@ -47,6 +47,20 @@ const mathFormulas = {
             correctFormula: 'P = 2(l + w)',
             topic: 'geometry',
             variables: { 'P': 'perimeter', 'l': 'length', 'w': 'width' },
+            example: {
+                en: "If l = 6 and w = 3, find P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 units",
+                es: "Si l = 6 y w = 3, encuentra P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 unidades",
+                fr: "Si l = 6 et w = 3, trouvez P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 unités",
+                de: "Wenn l = 6 und w = 3, finde P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 Einheiten",
+                it: "Se l = 6 e w = 3, trova P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 unità",
+                pt: "Se l = 6 e w = 3, encontre P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 unidades",
+                ru: "Если l = 6 и w = 3, найдите P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 единиц",
+                ar: "إذا كان l = 6 و w = 3، أوجد P:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 وحدة",
+                zh: "如果 l = 6 且 w = 3，求 P：\nP = 2(6 + 3)\nP = 2(9)\nP = 18 单位",
+                ja: "l = 6、w = 3 のとき、P を求めよ：\nP = 2(6 + 3)\nP = 2(9)\nP = 18 単位",
+                hi: "यदि l = 6 और w = 3, तो P ढूंढें:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 इकाइयाँ",
+                tr: "Eğer l = 6 ve w = 3 ise, P'yi bulun:\nP = 2(6 + 3)\nP = 2(9)\nP = 18 birim"
+            },
             practiceTask: {
                 question: {
                     en: "A rectangle has length = 9 and width = 4. Find the perimeter.",
@@ -193,6 +207,20 @@ const mathFormulas = {
             correctFormula: 'A + B + C = 180°',
             topic: 'geometry',
             variables: { 'A, B, C': 'three angles of triangle' },
+            example: {
+                en: "If A = 60° and B = 80°, find C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                es: "Si A = 60° y B = 80°, encuentra C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                fr: "Si A = 60° et B = 80°, trouvez C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                de: "Wenn A = 60° und B = 80°, finde C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                it: "Se A = 60° e B = 80°, trova C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                pt: "Se A = 60° e B = 80°, encontre C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                ru: "Если A = 60° и B = 80°, найдите C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                ar: "إذا كان A = 60° و B = 80°، أوجد C:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                zh: "如果 A = 60° 且 B = 80°，求 C：\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                ja: "A = 60°、B = 80° のとき、C を求めよ：\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                hi: "यदि A = 60° और B = 80°, तो C ढूंढें:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°",
+                tr: "Eğer A = 60° ve B = 80° ise, C'yi bulun:\n60° + 80° + C = 180°\n140° + C = 180°\nC = 40°"
+            },
             practiceTask: {
                 question: {
                     en: "In a triangle, angle A = 50° and angle B = 70°. Find angle C.",
@@ -219,6 +247,20 @@ const mathFormulas = {
             correctFormula: 'a + b = c',
             topic: 'algebra',
             variables: { 'a, b': 'numbers to add', 'c': 'sum' },
+            example: {
+                en: "If a = 15 and b = 23, find c:\nc = 15 + 23\nc = 38",
+                es: "Si a = 15 y b = 23, encuentra c:\nc = 15 + 23\nc = 38",
+                fr: "Si a = 15 et b = 23, trouvez c:\nc = 15 + 23\nc = 38",
+                de: "Wenn a = 15 und b = 23, finde c:\nc = 15 + 23\nc = 38",
+                it: "Se a = 15 e b = 23, trova c:\nc = 15 + 23\nc = 38",
+                pt: "Se a = 15 e b = 23, encontre c:\nc = 15 + 23\nc = 38",
+                ru: "Если a = 15 и b = 23, найдите c:\nc = 15 + 23\nc = 38",
+                ar: "إذا كان a = 15 و b = 23، أوجد c:\nc = 15 + 23\nc = 38",
+                zh: "如果 a = 15 且 b = 23，求 c：\nc = 15 + 23\nc = 38",
+                ja: "a = 15、b = 23 のとき、c を求めよ：\nc = 15 + 23\nc = 38",
+                hi: "यदि a = 15 और b = 23, तो c ढूंढें:\nc = 15 + 23\nc = 38",
+                tr: "Eğer a = 15 ve b = 23 ise, c'yi bulun:\nc = 15 + 23\nc = 38"
+            },
             practiceTask: {
                 question: {
                     en: "Add 25 + 37. What is the sum?",
@@ -245,6 +287,20 @@ const mathFormulas = {
             correctFormula: 'a - b = c',
             topic: 'algebra',
             variables: { 'a': 'minuend', 'b': 'subtrahend', 'c': 'difference' },
+            example: {
+                en: "If a = 50 and b = 18, find c:\nc = 50 - 18\nc = 32",
+                es: "Si a = 50 y b = 18, encuentra c:\nc = 50 - 18\nc = 32",
+                fr: "Si a = 50 et b = 18, trouvez c:\nc = 50 - 18\nc = 32",
+                de: "Wenn a = 50 und b = 18, finde c:\nc = 50 - 18\nc = 32",
+                it: "Se a = 50 e b = 18, trova c:\nc = 50 - 18\nc = 32",
+                pt: "Se a = 50 e b = 18, encontre c:\nc = 50 - 18\nc = 32",
+                ru: "Если a = 50 и b = 18, найдите c:\nc = 50 - 18\nc = 32",
+                ar: "إذا كان a = 50 و b = 18، أوجد c:\nc = 50 - 18\nc = 32",
+                zh: "如果 a = 50 且 b = 18，求 c：\nc = 50 - 18\nc = 32",
+                ja: "a = 50、b = 18 のとき、c を求めよ：\nc = 50 - 18\nc = 32",
+                hi: "यदि a = 50 और b = 18, तो c ढूंढें:\nc = 50 - 18\nc = 32",
+                tr: "Eğer a = 50 ve b = 18 ise, c'yi bulun:\nc = 50 - 18\nc = 32"
+            },
             practiceTask: {
                 question: {
                     en: "Subtract 82 - 35. What is the difference?",
@@ -271,6 +327,20 @@ const mathFormulas = {
             correctFormula: 'a × b = c',
             topic: 'algebra',
             variables: { 'a, b': 'factors', 'c': 'product' },
+            example: {
+                en: "If a = 7 and b = 9, find c:\nc = 7 × 9\nc = 63",
+                es: "Si a = 7 y b = 9, encuentra c:\nc = 7 × 9\nc = 63",
+                fr: "Si a = 7 et b = 9, trouvez c:\nc = 7 × 9\nc = 63",
+                de: "Wenn a = 7 und b = 9, finde c:\nc = 7 × 9\nc = 63",
+                it: "Se a = 7 e b = 9, trova c:\nc = 7 × 9\nc = 63",
+                pt: "Se a = 7 e b = 9, encontre c:\nc = 7 × 9\nc = 63",
+                ru: "Если a = 7 и b = 9, найдите c:\nc = 7 × 9\nc = 63",
+                ar: "إذا كان a = 7 و b = 9، أوجد c:\nc = 7 × 9\nc = 63",
+                zh: "如果 a = 7 且 b = 9，求 c：\nc = 7 × 9\nc = 63",
+                ja: "a = 7、b = 9 のとき、c を求めよ：\nc = 7 × 9\nc = 63",
+                hi: "यदि a = 7 और b = 9, तो c ढूंढें:\nc = 7 × 9\nc = 63",
+                tr: "Eğer a = 7 ve b = 9 ise, c'yi bulun:\nc = 7 × 9\nc = 63"
+            },
             practiceTask: {
                 question: {
                     en: "Multiply 13 × 8. What is the product?",
@@ -297,6 +367,20 @@ const mathFormulas = {
             correctFormula: 'a ÷ b = c',
             topic: 'algebra',
             variables: { 'a': 'dividend', 'b': 'divisor', 'c': 'quotient' },
+            example: {
+                en: "If a = 72 and b = 9, find c:\nc = 72 ÷ 9\nc = 8",
+                es: "Si a = 72 y b = 9, encuentra c:\nc = 72 ÷ 9\nc = 8",
+                fr: "Si a = 72 et b = 9, trouvez c:\nc = 72 ÷ 9\nc = 8",
+                de: "Wenn a = 72 und b = 9, finde c:\nc = 72 ÷ 9\nc = 8",
+                it: "Se a = 72 e b = 9, trova c:\nc = 72 ÷ 9\nc = 8",
+                pt: "Se a = 72 e b = 9, encontre c:\nc = 72 ÷ 9\nc = 8",
+                ru: "Если a = 72 и b = 9, найдите c:\nc = 72 ÷ 9\nc = 8",
+                ar: "إذا كان a = 72 و b = 9، أوجد c:\nc = 72 ÷ 9\nc = 8",
+                zh: "如果 a = 72 且 b = 9，求 c：\nc = 72 ÷ 9\nc = 8",
+                ja: "a = 72、b = 9 のとき、c を求めよ：\nc = 72 ÷ 9\nc = 8",
+                hi: "यदि a = 72 और b = 9, तो c ढूंढें:\nc = 72 ÷ 9\nc = 8",
+                tr: "Eğer a = 72 ve b = 9 ise, c'yi bulun:\nc = 72 ÷ 9\nc = 8"
+            },
             practiceTask: {
                 question: {
                     en: "Divide 96 ÷ 8. What is the quotient?",
@@ -365,6 +449,20 @@ const mathFormulas = {
             correctFormula: 'V = s³',
             topic: 'geometry',
             variables: { 'V': 'volume', 's': 'side length' },
+            example: {
+                en: "If s = 4, find V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 cubic units",
+                es: "Si s = 4, encuentra V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 unidades cúbicas",
+                fr: "Si s = 4, trouvez V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 unités cubes",
+                de: "Wenn s = 4, finde V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 Kubikeinheiten",
+                it: "Se s = 4, trova V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 unità cubiche",
+                pt: "Se s = 4, encontre V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 unidades cúbicas",
+                ru: "Если s = 4, найдите V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 кубических единиц",
+                ar: "إذا كان s = 4، أوجد V:\nV = 4³\nV = 4 × 4 × 4\nV = 64 وحدة مكعبة",
+                zh: "如果 s = 4，求 V：\nV = 4³\nV = 4 × 4 × 4\nV = 64 立方单位",
+                ja: "s = 4 のとき、V を求めよ：\nV = 4³\nV = 4 × 4 × 4\nV = 64 立方単位",
+                hi: "यदि s = 4, तो V ढूंढें:\nV = 4³\nV = 4 × 4 × 4\nV = 64 घन इकाइयाँ",
+                tr: "Eğer s = 4 ise, V'yi bulun:\nV = 4³\nV = 4 × 4 × 4\nV = 64 küp birim"
+            },
             practiceTask: {
                 question: {
                     en: "A cube has side length = 5. Find the volume.",
@@ -391,6 +489,20 @@ const mathFormulas = {
             correctFormula: 'V = l × w × h',
             topic: 'geometry',
             variables: { 'V': 'volume', 'l': 'length', 'w': 'width', 'h': 'height' },
+            example: {
+                en: "If l = 5, w = 3, and h = 2, find V:\nV = 5 × 3 × 2\nV = 30 cubic units",
+                es: "Si l = 5, w = 3 y h = 2, encuentra V:\nV = 5 × 3 × 2\nV = 30 unidades cúbicas",
+                fr: "Si l = 5, w = 3 et h = 2, trouvez V:\nV = 5 × 3 × 2\nV = 30 unités cubes",
+                de: "Wenn l = 5, w = 3 und h = 2, finde V:\nV = 5 × 3 × 2\nV = 30 Kubikeinheiten",
+                it: "Se l = 5, w = 3 e h = 2, trova V:\nV = 5 × 3 × 2\nV = 30 unità cubiche",
+                pt: "Se l = 5, w = 3 e h = 2, encontre V:\nV = 5 × 3 × 2\nV = 30 unidades cúbicas",
+                ru: "Если l = 5, w = 3 и h = 2, найдите V:\nV = 5 × 3 × 2\nV = 30 кубических единиц",
+                ar: "إذا كان l = 5، w = 3، h = 2، أوجد V:\nV = 5 × 3 × 2\nV = 30 وحدة مكعبة",
+                zh: "如果 l = 5，w = 3，h = 2，求 V：\nV = 5 × 3 × 2\nV = 30 立方单位",
+                ja: "l = 5、w = 3、h = 2 のとき、V を求めよ：\nV = 5 × 3 × 2\nV = 30 立方単位",
+                hi: "यदि l = 5, w = 3, और h = 2, तो V ढूंढें:\nV = 5 × 3 × 2\nV = 30 घन इकाइयाँ",
+                tr: "Eğer l = 5, w = 3 ve h = 2 ise, V'yi bulun:\nV = 5 × 3 × 2\nV = 30 küp birim"
+            },
             practiceTask: {
                 question: {
                     en: "A box has length = 6, width = 4, and height = 3. Find the volume.",
@@ -417,6 +529,20 @@ const mathFormulas = {
             correctFormula: 'I = P × r × t',
             topic: 'algebra',
             variables: { 'I': 'interest', 'P': 'principal', 'r': 'rate', 't': 'time' },
+            example: {
+                en: "If P = 1000, r = 0.05, and t = 3, find I:\nI = 1000 × 0.05 × 3\nI = 150",
+                es: "Si P = 1000, r = 0.05 y t = 3, encuentra I:\nI = 1000 × 0.05 × 3\nI = 150",
+                fr: "Si P = 1000, r = 0.05 et t = 3, trouvez I:\nI = 1000 × 0.05 × 3\nI = 150",
+                de: "Wenn P = 1000, r = 0.05 und t = 3, finde I:\nI = 1000 × 0.05 × 3\nI = 150",
+                it: "Se P = 1000, r = 0.05 e t = 3, trova I:\nI = 1000 × 0.05 × 3\nI = 150",
+                pt: "Se P = 1000, r = 0.05 e t = 3, encontre I:\nI = 1000 × 0.05 × 3\nI = 150",
+                ru: "Если P = 1000, r = 0.05 и t = 3, найдите I:\nI = 1000 × 0.05 × 3\nI = 150",
+                ar: "إذا كان P = 1000، r = 0.05، t = 3، أوجد I:\nI = 1000 × 0.05 × 3\nI = 150",
+                zh: "如果 P = 1000，r = 0.05，t = 3，求 I：\nI = 1000 × 0.05 × 3\nI = 150",
+                ja: "P = 1000、r = 0.05、t = 3 のとき、I を求めよ：\nI = 1000 × 0.05 × 3\nI = 150",
+                hi: "यदि P = 1000, r = 0.05, और t = 3, तो I ढूंढें:\nI = 1000 × 0.05 × 3\nI = 150",
+                tr: "Eğer P = 1000, r = 0.05 ve t = 3 ise, I'yı bulun:\nI = 1000 × 0.05 × 3\nI = 150"
+            },
             practiceTask: {
                 question: {
                     en: "Principal = 2000, rate = 0.06, time = 4 years. Find the simple interest.",
@@ -443,6 +569,20 @@ const mathFormulas = {
             correctFormula: 'y = mx + b',
             topic: 'algebra',
             variables: { 'y': 'y-coordinate', 'x': 'x-coordinate', 'm': 'slope', 'b': 'y-intercept' },
+            example: {
+                en: "If m = 2, b = 5, and x = 3, find y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                es: "Si m = 2, b = 5 y x = 3, encuentra y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                fr: "Si m = 2, b = 5 et x = 3, trouvez y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                de: "Wenn m = 2, b = 5 und x = 3, finde y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                it: "Se m = 2, b = 5 e x = 3, trova y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                pt: "Se m = 2, b = 5 e x = 3, encontre y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                ru: "Если m = 2, b = 5 и x = 3, найдите y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                ar: "إذا كان m = 2، b = 5، x = 3، أوجد y:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                zh: "如果 m = 2，b = 5，x = 3，求 y：\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                ja: "m = 2、b = 5、x = 3 のとき、y を求めよ：\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                hi: "यदि m = 2, b = 5, और x = 3, तो y ढूंढें:\ny = 2(3) + 5\ny = 6 + 5\ny = 11",
+                tr: "Eğer m = 2, b = 5 ve x = 3 ise, y'yi bulun:\ny = 2(3) + 5\ny = 6 + 5\ny = 11"
+            },
             practiceTask: {
                 question: {
                     en: "If m = 3, b = -2, and x = 4, find y.",
@@ -471,6 +611,20 @@ const mathFormulas = {
             correctFormula: 'x = (-b ± √(b² - 4ac)) / (2a)',
             topic: 'algebra',
             variables: { 'x': 'solution', 'a, b, c': 'coefficients' },
+            example: {
+                en: "Solve x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 or x = 2",
+                es: "Resuelve x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 o x = 2",
+                fr: "Résolvez x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 ou x = 2",
+                de: "Löse x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 oder x = 2",
+                it: "Risolvi x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 o x = 2",
+                pt: "Resolva x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 ou x = 2",
+                ru: "Решите x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 или x = 2",
+                ar: "حل x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 أو x = 2",
+                zh: "求解 x² - 5x + 6 = 0：\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 或 x = 2",
+                ja: "x² - 5x + 6 = 0 を解け：\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 または x = 2",
+                hi: "x² - 5x + 6 = 0 हल करें:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 या x = 2",
+                tr: "x² - 5x + 6 = 0 çözün:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 veya x = 2"
+            },
             practiceTask: {
                 question: {
                     en: "Solve x² - 7x + 12 = 0 using the quadratic formula. Find one solution (the larger value).",
@@ -497,6 +651,20 @@ const mathFormulas = {
             correctFormula: 'm = (y₂ - y₁) / (x₂ - x₁)',
             topic: 'algebra',
             variables: { 'm': 'slope', 'x₁, y₁': 'first point', 'x₂, y₂': 'second point' },
+            example: {
+                en: "Find slope between (2, 3) and (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                es: "Encuentra la pendiente entre (2, 3) y (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                fr: "Trouvez la pente entre (2, 3) et (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                de: "Finde die Steigung zwischen (2, 3) und (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                it: "Trova la pendenza tra (2, 3) e (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                pt: "Encontre a inclinação entre (2, 3) e (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                ru: "Найдите наклон между (2, 3) и (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                ar: "أوجد الميل بين (2, 3) و (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                zh: "求点 (2, 3) 和 (6, 11) 之间的斜率：\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                ja: "点 (2, 3) と (6, 11) の間の傾きを求めよ：\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                hi: "बिंदुओं (2, 3) और (6, 11) के बीच ढलान ढूंढें:\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
+                tr: "(2, 3) ve (6, 11) noktaları arasındaki eğimi bulun:\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2"
+            },
             practiceTask: {
                 question: {
                     en: "Find the slope between points (1, 2) and (5, 10).",
@@ -523,6 +691,20 @@ const mathFormulas = {
             correctFormula: 'A = ((a + b) / 2) × h',
             topic: 'geometry',
             variables: { 'A': 'area', 'a, b': 'parallel sides', 'h': 'height' },
+            example: {
+                en: "If a = 8, b = 12, and h = 5, find A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 square units",
+                es: "Si a = 8, b = 12 y h = 5, encuentra A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 unidades cuadradas",
+                fr: "Si a = 8, b = 12 et h = 5, trouvez A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 unités carrées",
+                de: "Wenn a = 8, b = 12 und h = 5, finde A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 Quadrateinheiten",
+                it: "Se a = 8, b = 12 e h = 5, trova A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 unità quadrate",
+                pt: "Se a = 8, b = 12 e h = 5, encontre A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 unidades quadradas",
+                ru: "Если a = 8, b = 12 и h = 5, найдите A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 квадратных единиц",
+                ar: "إذا كان a = 8، b = 12، h = 5، أوجد A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 وحدة مربعة",
+                zh: "如果 a = 8，b = 12，h = 5，求 A：\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 平方单位",
+                ja: "a = 8、b = 12、h = 5 のとき、A を求めよ：\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 平方単位",
+                hi: "यदि a = 8, b = 12, और h = 5, तो A ढूंढें:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 वर्ग इकाइयाँ",
+                tr: "Eğer a = 8, b = 12 ve h = 5 ise, A'yı bulun:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 kare birim"
+            },
             practiceTask: {
                 question: {
                     en: "A trapezoid has parallel sides a = 6 and b = 10, with height = 5. Find the area.",
@@ -549,6 +731,20 @@ const mathFormulas = {
             correctFormula: 'sin(θ) = opposite / hypotenuse',
             topic: 'trigonometry',
             variables: { 'θ': 'angle', 'opposite': 'opposite side', 'hypotenuse': 'hypotenuse' },
+            example: {
+                en: "If opposite = 3 and hypotenuse = 5, find sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                es: "Si opuesto = 3 e hipotenusa = 5, encuentra sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                fr: "Si opposé = 3 et hypoténuse = 5, trouvez sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                de: "Wenn Gegenkathete = 3 und Hypotenuse = 5, finde sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                it: "Se opposto = 3 e ipotenusa = 5, trova sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                pt: "Se oposto = 3 e hipotenusa = 5, encontre sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                ru: "Если противолежащий = 3 и гипотенуза = 5, найдите sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                ar: "إذا كان المقابل = 3 والوتر = 5، أوجد sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                zh: "如果对边 = 3，斜边 = 5，求 sin(θ)：\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                ja: "対辺 = 3、斜辺 = 5 のとき、sin(θ) を求めよ：\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                hi: "यदि विपरीत = 3 और कर्ण = 5, तो sin(θ) ढूंढें:\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
+                tr: "Eğer karşı = 3 ve hipotenüs = 5 ise, sin(θ)'yı bulun:\nsin(θ) = 3 / 5\nsin(θ) = 0.6"
+            },
             practiceTask: {
                 question: {
                     en: "In a right triangle, opposite = 8 and hypotenuse = 10. Find sin(θ). (Answer as decimal)",
@@ -575,6 +771,20 @@ const mathFormulas = {
             correctFormula: 'cos(θ) = adjacent / hypotenuse',
             topic: 'trigonometry',
             variables: { 'θ': 'angle', 'adjacent': 'adjacent side', 'hypotenuse': 'hypotenuse' },
+            example: {
+                en: "If adjacent = 4 and hypotenuse = 5, find cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                es: "Si adyacente = 4 e hipotenusa = 5, encuentra cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                fr: "Si adjacent = 4 et hypoténuse = 5, trouvez cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                de: "Wenn Ankathete = 4 und Hypotenuse = 5, finde cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                it: "Se adiacente = 4 e ipotenusa = 5, trova cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                pt: "Se adjacente = 4 e hipotenusa = 5, encontre cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                ru: "Если прилежащий = 4 и гипотенуза = 5, найдите cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                ar: "إذا كان المجاور = 4 والوتر = 5، أوجد cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                zh: "如果邻边 = 4，斜边 = 5，求 cos(θ)：\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                ja: "隣辺 = 4、斜辺 = 5 のとき、cos(θ) を求めよ：\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                hi: "यदि आसन्न = 4 और कर्ण = 5, तो cos(θ) ढूंढें:\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
+                tr: "Eğer komşu = 4 ve hipotenüs = 5 ise, cos(θ)'yı bulun:\ncos(θ) = 4 / 5\ncos(θ) = 0.8"
+            },
             practiceTask: {
                 question: {
                     en: "In a right triangle, adjacent = 6 and hypotenuse = 10. Find cos(θ). (Answer as decimal)",
@@ -601,6 +811,20 @@ const mathFormulas = {
             correctFormula: 'tan(θ) = opposite / adjacent',
             topic: 'trigonometry',
             variables: { 'θ': 'angle', 'opposite': 'opposite side', 'adjacent': 'adjacent side' },
+            example: {
+                en: "If opposite = 3 and adjacent = 4, find tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                es: "Si opuesto = 3 y adyacente = 4, encuentra tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                fr: "Si opposé = 3 et adjacent = 4, trouvez tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                de: "Wenn Gegenkathete = 3 und Ankathete = 4, finde tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                it: "Se opposto = 3 e adiacente = 4, trova tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                pt: "Se oposto = 3 e adjacente = 4, encontre tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                ru: "Если противолежащий = 3 и прилежащий = 4, найдите tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                ar: "إذا كان المقابل = 3 والمجاور = 4، أوجد tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                zh: "如果对边 = 3，邻边 = 4，求 tan(θ)：\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                ja: "対辺 = 3、隣辺 = 4 のとき、tan(θ) を求めよ：\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                hi: "यदि विपरीत = 3 और आसन्न = 4, तो tan(θ) ढूंढें:\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
+                tr: "Eğer karşı = 3 ve komşu = 4 ise, tan(θ)'yı bulun:\ntan(θ) = 3 / 4\ntan(θ) = 0.75"
+            },
             practiceTask: {
                 question: {
                     en: "In a right triangle, opposite = 9 and adjacent = 12. Find tan(θ). (Answer as decimal)",
@@ -629,6 +853,20 @@ const mathFormulas = {
             correctFormula: 'd = √((x₂ - x₁)² + (y₂ - y₁)²)',
             topic: 'algebra',
             variables: { 'd': 'distance', 'x₁, y₁': 'first point', 'x₂, y₂': 'second point' },
+            example: {
+                en: "Find distance between (1, 2) and (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 units",
+                es: "Encuentra la distancia entre (1, 2) y (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 unidades",
+                fr: "Trouvez la distance entre (1, 2) et (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 unités",
+                de: "Finde den Abstand zwischen (1, 2) und (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 Einheiten",
+                it: "Trova la distanza tra (1, 2) e (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 unità",
+                pt: "Encontre a distância entre (1, 2) e (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 unidades",
+                ru: "Найдите расстояние между (1, 2) и (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 единиц",
+                ar: "أوجد المسافة بين (1, 2) و (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 وحدات",
+                zh: "求点 (1, 2) 和 (4, 6) 之间的距离：\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 单位",
+                ja: "点 (1, 2) と (4, 6) の間の距離を求めよ：\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 単位",
+                hi: "बिंदुओं (1, 2) और (4, 6) के बीच की दूरी ढूंढें:\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 इकाइयाँ",
+                tr: "(1, 2) ve (4, 6) noktaları arasındaki mesafeyi bulun:\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 birim"
+            },
             practiceTask: {
                 question: {
                     en: "Find the distance between points (2, 3) and (6, 6).",
@@ -655,6 +893,20 @@ const mathFormulas = {
             correctFormula: 'A = P(1 + r/n)^(nt)',
             topic: 'algebra',
             variables: { 'A': 'final amount', 'P': 'principal', 'r': 'annual rate', 'n': 'compounds per year', 't': 'years' },
+            example: {
+                en: "If P = 1000, r = 0.05, n = 4, t = 2, find A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                es: "Si P = 1000, r = 0.05, n = 4, t = 2, encuentra A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                fr: "Si P = 1000, r = 0.05, n = 4, t = 2, trouvez A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                de: "Wenn P = 1000, r = 0.05, n = 4, t = 2, finde A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                it: "Se P = 1000, r = 0.05, n = 4, t = 2, trova A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                pt: "Se P = 1000, r = 0.05, n = 4, t = 2, encontre A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                ru: "Если P = 1000, r = 0.05, n = 4, t = 2, найдите A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                ar: "إذا كان P = 1000, r = 0.05, n = 4, t = 2، أوجد A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                zh: "如果 P = 1000, r = 0.05, n = 4, t = 2，求 A：\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                ja: "P = 1000, r = 0.05, n = 4, t = 2 のとき、A を求めよ：\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                hi: "यदि P = 1000, r = 0.05, n = 4, t = 2, तो A ढूंढें:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
+                tr: "Eğer P = 1000, r = 0.05, n = 4, t = 2 ise, A'yı bulun:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49"
+            },
             practiceTask: {
                 question: {
                     en: "P = 5000, r = 0.04, n = 4, t = 3. Find A (round to nearest cent).",
@@ -680,7 +932,21 @@ const mathFormulas = {
             explanation: { en: "The volume of a sphere using its radius", es: "El volumen de una esfera usando su radio", fr: "Le volume d'une sphère en utilisant son rayon", de: "Das Volumen einer Kugel mit ihrem Radius", it: "Il volume di una sfera usando il suo raggio", pt: "O volume de uma esfera usando seu raio", ru: "Объем сферы, используя ее радиус", ar: "حجم الكرة باستخدام نصف قطرها", zh: "使用半径计算球体的体积", ja: "半径を使用した球の体積", hi: "इसकी त्रिज्या का उपयोग करके गोले का आयतन", tr: "Yarıçapını kullanarak bir kürenin hacmi" },
             correctFormula: 'V = (4/3)πr³',
             topic: 'geometry',
-            variables: { 'V': 'volume', 'π': 'pi (≈3.14159)', 'r': 'radius' },
+            variables: { 'V': 'volume', 'r': 'radius' },
+            example: {
+                en: "If r = 3, find V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 cubic units",
+                es: "Si r = 3, encuentra V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 unidades cúbicas",
+                fr: "Si r = 3, trouvez V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 unités cubes",
+                de: "Wenn r = 3, finde V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 Kubikeinheiten",
+                it: "Se r = 3, trova V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 unità cubiche",
+                pt: "Se r = 3, encontre V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 unidades cúbicas",
+                ru: "Если r = 3, найдите V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 кубических единиц",
+                ar: "إذا كان r = 3، أوجد V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 وحدة مكعبة",
+                zh: "如果 r = 3，求 V：\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 立方单位",
+                ja: "r = 3 のとき、V を求めよ：\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 立方単位",
+                hi: "यदि r = 3, तो V ढूंढें:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 घन इकाइयाँ",
+                tr: "Eğer r = 3 ise, V'yi bulun:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 küp birim"
+            },
             practiceTask: {
                 question: {
                     en: "A sphere has radius = 4. Find the volume. (Use π ≈ 3.14)",
@@ -691,8 +957,8 @@ const mathFormulas = {
                     pt: "Uma esfera tem raio = 4. Encontre o volume. (Use π ≈ 3.14)",
                     ru: "Сфера имеет радиус = 4. Найдите объем. (Используйте π ≈ 3.14)",
                     ar: "كرة لها نصف قطر = 4. أوجد الحجم. (استخدم π ≈ 3.14)",
-                    zh: "一个球的半径 = 4。求体积。(使用 π ≈ 3.14)",
-                    ja: "球の半径 = 4。体積を求めよ。(π ≈ 3.14 を使用)",
+                    zh: "一个球的半径 = 4。求体积。（使用 π ≈ 3.14）",
+                    ja: "球の半径 = 4。体積を求めよ。（π ≈ 3.14 を使用）",
                     hi: "एक गोले की त्रिज्या = 4। आयतन ढूंढें। (π ≈ 3.14 का उपयोग करें)",
                     tr: "Bir kürenin yarıçapı = 4. Hacmi bulun. (π ≈ 3.14 kullanın)"
                 },
@@ -706,7 +972,21 @@ const mathFormulas = {
             explanation: { en: "The total surface area of a sphere", es: "El área superficial total de una esfera", fr: "L'aire de surface totale d'une sphère", de: "Die gesamte Oberfläche einer Kugel", it: "L'area superficiale totale di una sfera", pt: "A área de superfície total de uma esfera", ru: "Общая площадь поверхности сферы", ar: "مساحة السطح الإجمالية للكرة", zh: "球体的总表面积", ja: "球の全表面積", hi: "गोले का कुल पृष्ठीय क्षेत्रफल", tr: "Bir kürenin toplam yüzey alanı" },
             correctFormula: 'SA = 4πr²',
             topic: 'geometry',
-            variables: { 'SA': 'surface area', 'π': 'pi (≈3.14159)', 'r': 'radius' },
+            variables: { 'SA': 'surface area', 'r': 'radius' },
+            example: {
+                en: "If r = 5, find SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 square units",
+                es: "Si r = 5, encuentra SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 unidades cuadradas",
+                fr: "Si r = 5, trouvez SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 unités carrées",
+                de: "Wenn r = 5, finde SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 Quadrateinheiten",
+                it: "Se r = 5, trova SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 unità quadrate",
+                pt: "Se r = 5, encontre SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 unidades quadradas",
+                ru: "Если r = 5, найдите SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 квадратных единиц",
+                ar: "إذا كان r = 5، أوجد SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 وحدة مربعة",
+                zh: "如果 r = 5，求 SA：\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 平方单位",
+                ja: "r = 5 のとき、SA を求めよ：\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 平方単位",
+                hi: "यदि r = 5, तो SA ढूंढें:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 वर्ग इकाइयाँ",
+                tr: "Eğer r = 5 ise, SA'yı bulun:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 kare birim"
+            },
             practiceTask: {
                 question: {
                     en: "A sphere has radius = 3. Find the surface area. (Use π ≈ 3.14)",
@@ -717,8 +997,8 @@ const mathFormulas = {
                     pt: "Uma esfera tem raio = 3. Encontre a área de superfície. (Use π ≈ 3.14)",
                     ru: "Сфера имеет радиус = 3. Найдите площадь поверхности. (Используйте π ≈ 3.14)",
                     ar: "كرة لها نصف قطر = 3. أوجد مساحة السطح. (استخدم π ≈ 3.14)",
-                    zh: "一个球的半径 = 3。求表面积。(使用 π ≈ 3.14)",
-                    ja: "球の半径 = 3。表面積を求めよ。(π ≈ 3.14 を使用)",
+                    zh: "一个球的半径 = 3。求表面积。（使用 π ≈ 3.14）",
+                    ja: "球の半径 = 3。表面積を求めよ。（π ≈ 3.14 を使用）",
                     hi: "एक गोले की त्रिज्या = 3। पृष्ठीय क्षेत्रफल ढूंढें। (π ≈ 3.14 का उपयोग करें)",
                     tr: "Bir kürenin yarıçapı = 3. Yüzey alanını bulun. (π ≈ 3.14 kullanın)"
                 },
@@ -729,10 +1009,24 @@ const mathFormulas = {
         },
         {
             title: { en: "Midpoint Formula", es: "Fórmula del Punto Medio", fr: "Formule du Point Milieu", de: "Mittelpunktformel", it: "Formula del Punto Medio", pt: "Fórmula do Ponto Médio", ru: "Формула Средней Точки", ar: "صيغة نقطة المنتصف", zh: "中点公式", ja: "中点の公式", hi: "मध्य बिंदु सूत्र", tr: "Orta Nokta Formülü" },
-            explanation: { en: "Finds the point exactly halfway between two points", es: "Encuentra el punto exactamente a mitad de camino entre dos puntos", fr: "Trouve le point exactement à mi-chemin entre deux points", de: "Findet den Punkt genau in der Mitte zwischen zwei Punkten", it: "Trova il punto esattamente a metà strada tra due punti", pt: "Encontra o ponto exatamente no meio do caminho entre dois pontos", ru: "Находит точку ровно посередине между двумя точками", ar: "يجد النقطة في منتصف المسافة بالضبط بين نقطتين", zh: "找到两点之间正中间的点", ja: "2点の間のちょうど中間の点を見つけます", hi: "दो बिंदुओं के बीच ठीक बीच में बिंदु ढूंढता है", tr: "İki nokta arasında tam ortadaki noktayı bulur" },
+            explanation: { en: "Finds the point exactly halfway between two points", es: "Encuentra el punto exactamente a mitad de camino entre dos puntos", fr: "Trouve le point exactement à mi-chemin entre deux points", de: "Findet den Punkt genau in der Mitte zwischen zwei Punkten", it: "Trova il punto esattamente a metà strada tra due punti", pt: "Encontra o ponto exatamente no meio do caminho entre dois pontos", ru: "Находит точку ровно посередине между двумя точками", ar: "يجد النقطة في منتصف المسافة بالضبط بين نقطتين", zh: "找到两点之间正中间的点", ja: "2点の間のちょうど中間の点を見つけます", hi: "दो बिंदुओं के बीच ठीक बीच में बिंदु ढूंढता है", tr: "İki nokta arasındaki tam ortadaki noktayı bulur" },
             correctFormula: 'M = ((x₁ + x₂)/2, (y₁ + y₂)/2)',
             topic: 'algebra',
             variables: { 'M': 'midpoint', 'x₁, y₁': 'first point', 'x₂, y₂': 'second point' },
+            example: {
+                en: "Find midpoint between (2, 4) and (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                es: "Encuentra el punto medio entre (2, 4) y (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                fr: "Trouvez le point médian entre (2, 4) et (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                de: "Finde den Mittelpunkt zwischen (2, 4) und (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                it: "Trova il punto medio tra (2, 4) e (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                pt: "Encontre o ponto médio entre (2, 4) e (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                ru: "Найдите середину между (2, 4) и (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                ar: "أوجد نقطة المنتصف بين (2, 4) و (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                zh: "求点 (2, 4) 和 (8, 10) 之间的中点：\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                ja: "点 (2, 4) と (8, 10) の中点を求めよ：\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                hi: "बिंदुओं (2, 4) और (8, 10) के बीच मध्य बिंदु ढूंढें:\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
+                tr: "(2, 4) ve (8, 10) noktaları arasındaki orta noktayı bulun:\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)"
+            },
             practiceTask: {
                 question: {
                     en: "Find the x-coordinate of the midpoint between (2, 4) and (8, 10).",
@@ -756,9 +1050,24 @@ const mathFormulas = {
         {
             title: { en: "Mean (Average)", es: "Media (Promedio)", fr: "Moyenne", de: "Mittelwert (Durchschnitt)", it: "Media", pt: "Média", ru: "Среднее Значение", ar: "المتوسط", zh: "平均值", ja: "平均", hi: "माध्य (औसत)", tr: "Ortalama" },
             explanation: { en: "The sum of all values divided by the number of values", es: "La suma de todos los valores dividida por el número de valores", fr: "La somme de toutes les valeurs divisée par le nombre de valeurs", de: "Die Summe aller Werte geteilt durch die Anzahl der Werte", it: "La somma di tutti i valori divisa per il numero di valori", pt: "A soma de todos os valores dividida pelo número de valores", ru: "Сумма всех значений, деленная на количество значений", ar: "مجموع جميع القيم مقسومًا على عدد القيم", zh: "所有值的总和除以值的数量", ja: "すべての値の合計を値の数で割ったもの", hi: "सभी मानों का योग मानों की संख्या से विभाजित", tr: "Tüm değerlerin toplamının değer sayısına bölümü" },
-            correctFormula: 'x̄ = (Σx) / n',
+            correctFormula: 'Mean = (sum of values) / (number of values)',
             topic: 'statistics',
-            variables: { 'x̄': 'mean', 'Σx': 'sum of values', 'n': 'number of values' },
+            variables: { 'Mean': 'average' },
+            example: {
+                en: "Find mean of 4, 8, 6, 5, 7:\nSum = 4 + 8 + 6 + 5 + 7 = 30\nCount = 5\nMean = 30 / 5 = 6",
+                es: "Encuentra la media de 4, 8, 6, 5, 7:\nSuma = 4 + 8 + 6 + 5 + 7 = 30\nCantidad = 5\nMedia = 30 / 5 = 6",
+                fr: "Trouvez la moyenne de 4, 8, 6, 5, 7:\nSomme = 4 + 8 + 6 + 5 + 7 = 30\nNombre = 5\nMoyenne = 30 / 5 = 6",
+                de: "Finde den Mittelwert von 4, 8, 6, 5, 7:\nSumme = 4 + 8 + 6 + 5 + 7 = 30\nAnzahl = 5\nMittelwert = 30 / 5 = 6",
+                it: "Trova la media di 4, 8, 6, 5, 7:\nSomma = 4 + 8 + 6 + 5 + 7 = 30\nNumero = 5\nMedia = 30 / 5 = 6",
+                pt: "Encontre a média de 4, 8, 6, 5, 7:\nSoma = 4 + 8 + 6 + 5 + 7 = 30\nQuantidade = 5\nMédia = 30 / 5 = 6",
+                ru: "Найдите среднее значение 4, 8, 6, 5, 7:\nСумма = 4 + 8 + 6 + 5 + 7 = 30\nКоличество = 5\nСреднее = 30 / 5 = 6",
+                ar: "أوجد المتوسط لـ 4, 8, 6, 5, 7:\nالمجموع = 4 + 8 + 6 + 5 + 7 = 30\nالعدد = 5\nالمتوسط = 30 / 5 = 6",
+                zh: "求 4, 8, 6, 5, 7 的平均值：\n总和 = 4 + 8 + 6 + 5 + 7 = 30\n数量 = 5\n平均值 = 30 / 5 = 6",
+                ja: "4, 8, 6, 5, 7 の平均を求めよ：\n合計 = 4 + 8 + 6 + 5 + 7 = 30\n個数 = 5\n平均 = 30 / 5 = 6",
+                hi: "4, 8, 6, 5, 7 का औसत ढूंढें:\nयोग = 4 + 8 + 6 + 5 + 7 = 30\nसंख्या = 5\nऔसत = 30 / 5 = 6",
+                tr: "4, 8, 6, 5, 7 sayılarının ortalamasını bulun:\nToplam = 4 + 8 + 6 + 5 + 7 = 30\nAdet = 5\nOrtalama = 30 / 5 = 6"
+            },
+            practiceTask: {'n': 'number of values' },
             practiceTask: {
                 question: {
                     en: "Find the mean of: 12, 15, 18, 20, 25",
