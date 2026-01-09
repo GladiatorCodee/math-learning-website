@@ -610,7 +610,7 @@ const mathFormulas = {
             explanation: { en: "Used to solve quadratic equations of the form ax² + bx + c = 0", es: "Se usa para resolver ecuaciones cuadráticas de la forma ax² + bx + c = 0", fr: "Utilisée pour résoudre les équations quadratiques de la forme ax² + bx + c = 0", de: "Wird verwendet, um quadratische Gleichungen der Form ax² + bx + c = 0 zu lösen", it: "Usata per risolvere equazioni quadratiche della forma ax² + bx + c = 0", pt: "Usada para resolver equações quadráticas da forma ax² + bx + c = 0", ru: "Используется для решения квадратных уравнений вида ax² + bx + c = 0", ar: "تُستخدم لحل المعادلات التربيعية من الشكل ax² + bx + c = 0", zh: "用于求解形式为 ax² + bx + c = 0 的二次方程", ja: "ax² + bx + c = 0 の形の二次方程式を解くために使用されます", hi: "ax² + bx + c = 0 के रूप के द्विघात समीकरणों को हल करने के लिए उपयोग किया जाता है", tr: "ax² + bx + c = 0 biçimindeki ikinci dereceden denklemleri çözmek için kullanılır" },
             correctFormula: 'x = (-b ± √(b² - 4ac)) / (2a)',
             topic: 'algebra',
-            variables: { 'x': 'solution', 'a, b, c': 'coefficients' },
+            variables: { 'x': 'solution(s)', 'a': 'coefficient of x²', 'b': 'coefficient of x', 'c': 'constant term' },
             example: {
                 en: "Solve x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 or x = 2",
                 es: "Resuelve x² - 5x + 6 = 0:\na = 1, b = -5, c = 6\nx = (5 ± √(25 - 24)) / 2\nx = (5 ± 1) / 2\nx = 3 o x = 2",
@@ -650,7 +650,7 @@ const mathFormulas = {
             explanation: { en: "Calculates the slope (steepness) of a line using two points", es: "Calcula la pendiente (inclinación) de una línea usando dos puntos", fr: "Calcule la pente (inclinaison) d'une droite en utilisant deux points", de: "Berechnet die Steigung (Steilheit) einer Geraden mit zwei Punkten", it: "Calcola la pendenza (inclinazione) di una retta usando due punti", pt: "Calcula a inclinação (declive) de uma linha usando dois pontos", ru: "Вычисляет наклон (крутизну) прямой, используя две точки", ar: "يحسب ميل (انحدار) الخط باستخدام نقطتين", zh: "使用两点计算直线的斜率（陡度）", ja: "2点を使用して直線の傾き（急勾配）を計算します", hi: "दो बिंदुओं का उपयोग करके एक रेखा की ढलान (खड़ापन) की गणना करता है", tr: "İki nokta kullanarak bir doğrunun eğimini (dikliğini) hesaplar" },
             correctFormula: 'm = (y₂ - y₁) / (x₂ - x₁)',
             topic: 'algebra',
-            variables: { 'm': 'slope', 'x₁, y₁': 'first point', 'x₂, y₂': 'second point' },
+            variables: { 'm': 'slope (steepness)', 'x₁, y₁': 'coordinates of first point', 'x₂, y₂': 'coordinates of second point' },
             example: {
                 en: "Find slope between (2, 3) and (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
                 es: "Encuentra la pendiente entre (2, 3) y (6, 11):\nm = (11 - 3) / (6 - 2)\nm = 8 / 4\nm = 2",
@@ -690,7 +690,7 @@ const mathFormulas = {
             explanation: { en: "The area equals the average of the parallel sides times the height", es: "El área es igual al promedio de los lados paralelos por la altura", fr: "L'aire est égale à la moyenne des côtés parallèles fois la hauteur", de: "Die Fläche entspricht dem Durchschnitt der parallelen Seiten mal der Höhe", it: "L'area è uguale alla media dei lati paralleli per l'altezza", pt: "A área é igual à média dos lados paralelos vezes a altura", ru: "Площадь равна среднему значению параллельных сторон, умноженному на высоту", ar: "المساحة تساوي متوسط الأضلاع المتوازية مضروبًا في الارتفاع", zh: "面积等于平行边的平均值乘以高度", ja: "面積は平行な辺の平均に高さを掛けたものに等しい", hi: "क्षेत्रफल समानांतर भुजाओं के औसत को ऊंचाई से गुणा करने के बराबर है", tr: "Alan, paralel kenarların ortalamasının yükseklikle çarpımına eşittir" },
             correctFormula: 'A = ((a + b) / 2) × h',
             topic: 'geometry',
-            variables: { 'A': 'area', 'a, b': 'parallel sides', 'h': 'height' },
+            variables: { 'A': 'area', 'a': 'length of first parallel side', 'b': 'length of second parallel side', 'h': 'perpendicular height' },
             example: {
                 en: "If a = 8, b = 12, and h = 5, find A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 square units",
                 es: "Si a = 8, b = 12 y h = 5, encuentra A:\nA = ((8 + 12) / 2) × 5\nA = (20 / 2) × 5\nA = 10 × 5\nA = 50 unidades cuadradas",
@@ -730,7 +730,7 @@ const mathFormulas = {
             explanation: { en: "In a right triangle, sine equals opposite side over hypotenuse", es: "En un triángulo rectángulo, el seno es igual al lado opuesto sobre la hipotenusa", fr: "Dans un triangle rectangle, le sinus est égal au côté opposé sur l'hypoténuse", de: "In einem rechtwinkligen Dreieck ist der Sinus gleich Gegenkathete durch Hypotenuse", it: "In un triangolo rettangolo, il seno è uguale al lato opposto sull'ipotenusa", pt: "Em um triângulo retângulo, o seno é igual ao lado oposto sobre a hipotenusa", ru: "В прямоугольном треугольнике синус равен противолежащему катету, деленному на гипотенузу", ar: "في المثلث القائم، الجيب يساوي الضلع المقابل على الوتر", zh: "在直角三角形中，正弦等于对边除以斜边", ja: "直角三角形では、正弦は対辺÷斜辺に等しい", hi: "समकोण त्रिभुज में, साइन विपरीत भुजा को कर्ण से विभाजित करने के बराबर है", tr: "Dik üçgende, sinüs karşı kenar bölü hipotenüse eşittir" },
             correctFormula: 'sin(θ) = opposite / hypotenuse',
             topic: 'trigonometry',
-            variables: { 'θ': 'angle', 'opposite': 'opposite side', 'hypotenuse': 'hypotenuse' },
+            variables: { 'θ': 'angle in degrees or radians', 'opposite': 'side opposite to angle θ', 'hypotenuse': 'longest side of right triangle' },
             example: {
                 en: "If opposite = 3 and hypotenuse = 5, find sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
                 es: "Si opuesto = 3 e hipotenusa = 5, encuentra sin(θ):\nsin(θ) = 3 / 5\nsin(θ) = 0.6",
@@ -770,7 +770,7 @@ const mathFormulas = {
             explanation: { en: "In a right triangle, cosine equals adjacent side over hypotenuse", es: "En un triángulo rectángulo, el coseno es igual al lado adyacente sobre la hipotenusa", fr: "Dans un triangle rectangle, le cosinus est égal au côté adjacent sur l'hypoténuse", de: "In einem rechtwinkligen Dreieck ist der Kosinus gleich Ankathete durch Hypotenuse", it: "In un triangolo rettangolo, il coseno è uguale al lato adiacente sull'ipotenusa", pt: "Em um triângulo retângulo, o cosseno é igual ao lado adjacente sobre a hipotenusa", ru: "В прямоугольном треугольнике косинус равен прилежащему катету, деленному на гипотенузу", ar: "في المثلث القائم، جيب التمام يساوي الضلع المجاور على الوتر", zh: "在直角三角形中，余弦等于邻边除以斜边", ja: "直角三角形では、余弦は隣辺÷斜辺に等しい", hi: "समकोण त्रिभुज में, कोसाइन आसन्न भुजा को कर्ण से विभाजित करने के बराबर है", tr: "Dik üçgende, kosinüs komşu kenar bölü hipotenüse eşittir" },
             correctFormula: 'cos(θ) = adjacent / hypotenuse',
             topic: 'trigonometry',
-            variables: { 'θ': 'angle', 'adjacent': 'adjacent side', 'hypotenuse': 'hypotenuse' },
+            variables: { 'θ': 'angle in degrees or radians', 'adjacent': 'side next to angle θ', 'hypotenuse': 'longest side of right triangle' },
             example: {
                 en: "If adjacent = 4 and hypotenuse = 5, find cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
                 es: "Si adyacente = 4 e hipotenusa = 5, encuentra cos(θ):\ncos(θ) = 4 / 5\ncos(θ) = 0.8",
@@ -810,7 +810,7 @@ const mathFormulas = {
             explanation: { en: "In a right triangle, tangent equals opposite side over adjacent side", es: "En un triángulo rectángulo, la tangente es igual al lado opuesto sobre el lado adyacente", fr: "Dans un triangle rectangle, la tangente est égale au côté opposé sur le côté adjacent", de: "In einem rechtwinkligen Dreieck ist der Tangens gleich Gegenkathete durch Ankathete", it: "In un triangolo rettangolo, la tangente è uguale al lato opposto sul lato adiacente", pt: "Em um triângulo retângulo, a tangente é igual ao lado oposto sobre o lado adjacente", ru: "В прямоугольном треугольнике тангенс равен противолежащему катету, деленному на прилежащий катет", ar: "في المثلث القائم، الظل يساوي الضلع المقابل على الضلع المجاور", zh: "在直角三角形中，正切等于对边除以邻边", ja: "直角三角形では、正接は対辺÷隣辺に等しい", hi: "समकोण त्रिभुज में, टैंजेंट विपरीत भुजा को आसन्न भुजा से विभाजित करने के बराबर है", tr: "Dik üçgende, tanjant karşı kenar bölü komşu kenara eşittir" },
             correctFormula: 'tan(θ) = opposite / adjacent',
             topic: 'trigonometry',
-            variables: { 'θ': 'angle', 'opposite': 'opposite side', 'adjacent': 'adjacent side' },
+            variables: { 'θ': 'angle in degrees or radians', 'opposite': 'side opposite to angle θ', 'adjacent': 'side next to angle θ' },
             example: {
                 en: "If opposite = 3 and adjacent = 4, find tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
                 es: "Si opuesto = 3 y adyacente = 4, encuentra tan(θ):\ntan(θ) = 3 / 4\ntan(θ) = 0.75",
@@ -852,7 +852,7 @@ const mathFormulas = {
             explanation: { en: "Calculates the distance between two points in a coordinate plane", es: "Calcula la distancia entre dos puntos en un plano de coordenadas", fr: "Calcule la distance entre deux points dans un plan de coordonnées", de: "Berechnet den Abstand zwischen zwei Punkten in einer Koordinatenebene", it: "Calcola la distanza tra due punti in un piano di coordinate", pt: "Calcula a distância entre dois pontos em um plano de coordenadas", ru: "Вычисляет расстояние между двумя точками в координатной плоскости", ar: "يحسب المسافة بين نقطتين في مستوى الإحداثيات", zh: "计算坐标平面中两点之间的距离", ja: "座標平面上の2点間の距離を計算します", hi: "निर्देशांक तल में दो बिंदुओं के बीच की दूरी की गणना करता है", tr: "Koordinat düzleminde iki nokta arasındaki mesafeyi hesaplar" },
             correctFormula: 'd = √((x₂ - x₁)² + (y₂ - y₁)²)',
             topic: 'algebra',
-            variables: { 'd': 'distance', 'x₁, y₁': 'first point', 'x₂, y₂': 'second point' },
+            variables: { 'd': 'distance between points', 'x₁, y₁': 'coordinates of first point', 'x₂, y₂': 'coordinates of second point' },
             example: {
                 en: "Find distance between (1, 2) and (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 units",
                 es: "Encuentra la distancia entre (1, 2) y (4, 6):\nd = √((4-1)² + (6-2)²)\nd = √(3² + 4²)\nd = √(9 + 16)\nd = √25\nd = 5 unidades",
@@ -892,7 +892,7 @@ const mathFormulas = {
             explanation: { en: "Interest calculated on initial principal and accumulated interest", es: "Interés calculado sobre el capital inicial y el interés acumulado", fr: "Intérêt calculé sur le capital initial et les intérêts accumulés", de: "Zinsen berechnet auf Anfangskapital und aufgelaufene Zinsen", it: "Interesse calcolato sul capitale iniziale e sugli interessi accumulati", pt: "Juros calculados sobre o principal inicial e juros acumulados", ru: "Проценты, рассчитанные на начальную сумму и накопленные проценты", ar: "الفائدة المحسوبة على رأس المال الأولي والفائدة المتراكمة", zh: "根据初始本金和累积利息计算的利息", ja: "元本と累積利息に対して計算される利息", hi: "प्रारंभिक मूलधन और संचित ब्याज पर गणना किया गया ब्याज", tr: "Başlangıç anaparası ve birikmiş faiz üzerinden hesaplanan faiz" },
             correctFormula: 'A = P(1 + r/n)^(nt)',
             topic: 'algebra',
-            variables: { 'A': 'final amount', 'P': 'principal', 'r': 'annual rate', 'n': 'compounds per year', 't': 'years' },
+            variables: { 'A': 'final amount after interest', 'P': 'initial principal (starting amount)', 'r': 'annual interest rate (as decimal)', 'n': 'number of times interest compounds per year', 't': 'time in years' },
             example: {
                 en: "If P = 1000, r = 0.05, n = 4, t = 2, find A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
                 es: "Si P = 1000, r = 0.05, n = 4, t = 2, encuentra A:\nA = 1000(1 + 0.05/4)^(4×2)\nA = 1000(1.0125)^8\nA ≈ 1104.49",
@@ -932,7 +932,7 @@ const mathFormulas = {
             explanation: { en: "The volume of a sphere using its radius", es: "El volumen de una esfera usando su radio", fr: "Le volume d'une sphère en utilisant son rayon", de: "Das Volumen einer Kugel mit ihrem Radius", it: "Il volume di una sfera usando il suo raggio", pt: "O volume de uma esfera usando seu raio", ru: "Объем сферы, используя ее радиус", ar: "حجم الكرة باستخدام نصف قطرها", zh: "使用半径计算球体的体积", ja: "半径を使用した球の体積", hi: "इसकी त्रिज्या का उपयोग करके गोले का आयतन", tr: "Yarıçapını kullanarak bir kürenin hacmi" },
             correctFormula: 'V = (4/3)πr³',
             topic: 'geometry',
-            variables: { 'V': 'volume', 'r': 'radius' },
+            variables: { 'V': 'volume of sphere', 'r': 'radius of sphere' },
             example: {
                 en: "If r = 3, find V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 cubic units",
                 es: "Si r = 3, encuentra V:\nV = (4/3)π(3)³\nV = (4/3)π(27)\nV = 36π\nV ≈ 113.10 unidades cúbicas",
@@ -972,7 +972,7 @@ const mathFormulas = {
             explanation: { en: "The total surface area of a sphere", es: "El área superficial total de una esfera", fr: "L'aire de surface totale d'une sphère", de: "Die gesamte Oberfläche einer Kugel", it: "L'area superficiale totale di una sfera", pt: "A área de superfície total de uma esfera", ru: "Общая площадь поверхности сферы", ar: "مساحة السطح الإجمالية للكرة", zh: "球体的总表面积", ja: "球の全表面積", hi: "गोले का कुल पृष्ठीय क्षेत्रफल", tr: "Bir kürenin toplam yüzey alanı" },
             correctFormula: 'SA = 4πr²',
             topic: 'geometry',
-            variables: { 'SA': 'surface area', 'r': 'radius' },
+            variables: { 'SA': 'total surface area', 'r': 'radius of sphere' },
             example: {
                 en: "If r = 5, find SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 square units",
                 es: "Si r = 5, encuentra SA:\nSA = 4π(5)²\nSA = 4π(25)\nSA = 100π\nSA ≈ 314.16 unidades cuadradas",
@@ -1012,7 +1012,7 @@ const mathFormulas = {
             explanation: { en: "Finds the point exactly halfway between two points", es: "Encuentra el punto exactamente a mitad de camino entre dos puntos", fr: "Trouve le point exactement à mi-chemin entre deux points", de: "Findet den Punkt genau in der Mitte zwischen zwei Punkten", it: "Trova il punto esattamente a metà strada tra due punti", pt: "Encontra o ponto exatamente no meio do caminho entre dois pontos", ru: "Находит точку ровно посередине между двумя точками", ar: "يجد النقطة في منتصف المسافة بالضبط بين نقطتين", zh: "找到两点之间正中间的点", ja: "2点の間のちょうど中間の点を見つけます", hi: "दो बिंदुओं के बीच ठीक बीच में बिंदु ढूंढता है", tr: "İki nokta arasındaki tam ortadaki noktayı bulur" },
             correctFormula: 'M = ((x₁ + x₂)/2, (y₁ + y₂)/2)',
             topic: 'algebra',
-            variables: { 'M': 'midpoint', 'x₁, y₁': 'first point', 'x₂, y₂': 'second point' },
+            variables: { 'M': 'midpoint coordinates', 'x₁, y₁': 'coordinates of first point', 'x₂, y₂': 'coordinates of second point' },
             example: {
                 en: "Find midpoint between (2, 4) and (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
                 es: "Encuentra el punto medio entre (2, 4) y (8, 10):\nM = ((2+8)/2, (4+10)/2)\nM = (10/2, 14/2)\nM = (5, 7)",
@@ -1052,7 +1052,7 @@ const mathFormulas = {
             explanation: { en: "The sum of all values divided by the number of values", es: "La suma de todos los valores dividida por el número de valores", fr: "La somme de toutes les valeurs divisée par le nombre de valeurs", de: "Die Summe aller Werte geteilt durch die Anzahl der Werte", it: "La somma di tutti i valori divisa per il numero di valori", pt: "A soma de todos os valores dividida pelo número de valores", ru: "Сумма всех значений, деленная на количество значений", ar: "مجموع جميع القيم مقسومًا على عدد القيم", zh: "所有值的总和除以值的数量", ja: "すべての値の合計を値の数で割ったもの", hi: "सभी मानों का योग मानों की संख्या से विभाजित", tr: "Tüm değerlerin toplamının değer sayısına bölümü" },
             correctFormula: 'Mean = (sum of values) / (number of values)',
             topic: 'statistics',
-            variables: { 'Mean': 'average' },
+            variables: { 'Mean': 'average value of all numbers' },
             example: {
                 en: "Find mean of 4, 8, 6, 5, 7:\nSum = 4 + 8 + 6 + 5 + 7 = 30\nCount = 5\nMean = 30 / 5 = 6",
                 es: "Encuentra la media de 4, 8, 6, 5, 7:\nSuma = 4 + 8 + 6 + 5 + 7 = 30\nCantidad = 5\nMedia = 30 / 5 = 6",
